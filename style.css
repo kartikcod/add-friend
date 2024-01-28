@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(13, 134, 134);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card div {
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.card img {
+    position: relative;
+    padding: 34px 50px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+button {
+    margin: 8px 97px;
+    background-color: rgb(29, 108, 211);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+    height: 37px;
+
+
+}
+
+div h5 {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.card #Add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+
+    height: 37px;
+}
